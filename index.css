@@ -1,24 +1,14 @@
 body {
-	max-width: 100vw;
-	height: 100%;
 	margin: 0;
 }
 
-header {
-	max-width: 100vw;
-	max-height: 100vh;
-}
-
-.header {
-	
-}
 
 .hero {
     color: #ffffff;
     background-image: url(img/football_767.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 130vw;
     position: relative;
 
@@ -40,54 +30,215 @@ header {
 	z-index: 3;
 	margin-right: 33%;
 	margin-left: 33%;
-	margin-bottom: 30%;
-	padding-top: 40px;
+	margin-bottom: 27vw;
+	padding-top: 10vw;
 	width: 34%;
+	color: white;
 }
 
 .top__text {
 	position: relative;
 	z-index: 3;
-	width: 80%;
+	max-width: 80%;
+	height: 30%;
+	font-family: open sans;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 150%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 20%;
 }
 
 .be {
 	display: block;
 	text-align: left;
-	padding-left: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+	font-size: 6vw;
 }
 
 .play {
 	display: block;
+	padding-left: 9vw;
+	font-size: 6vw;
 	text-align: left;
-	padding-left: 20%;
 }
 
 .social {
 	width: 80%;
+	height: 30%;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: center;
+	position: relative;
+	z-index: 3;
 }
-
 
 .app__store {
-	height: 50px;
+	height: 20%;
 	background-color: #5e3db3;
 	border-radius: 50px;
-	margin-bottom: 10%
+	margin-bottom: 5%;
+	position: relative;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 39.64%;
 }
 
-.goodle__play {
-	height: 50px;
+.apple__link, .google__link {
+	font-size: 3vw;
+	display: block;
+	text-align: left;
+	font-family: open sans;
+}
+
+.apple__link__next, .google__link__next {
+	font-size: 3vw;
+	display: block;
+	text-align: left;
+	font-family: open sans;
+	font-weight: bold;
+}
+
+.apple__link:before {
+	content: '';
+    position: absolute;
+    z-index: 5;
+	background-image: url(svg/apple_logo_black.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 29%;
+	bottom: 25%;
+	width: 9%;
+	height: 55%;
+}
+
+.google__play {
+	height: 20%;
 	background-color: #5e3db3;
 	border-radius: 50px;
+	padding-left: 39.64%;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	position: relative;
 }
 
+.google__link:before {
+	content: '';
+	position: absolute;
+    z-index: 5;
+	background-image: url(svg/google-play.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 29%;
+	bottom: 25%;
+	width: 9%;
+	height: 55%;
+}
 
+.block__title {
+	font-family: open sans;
+	font-weight: bold;
+	width: 70%;
+	margin-left: 10%;
+	font-size: 15vw;
+	text-transform: uppercase;
+	color: #e7e7e7;
+}
+
+.card {
+	width: 100%;
+}
+
+.card__img__footballer {
+    background-image: url(img/footballer_192.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 66vw;
+    background-size: contain;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    background-position: center;
+}
+
+.card__info__section {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.card__text {
+	text-transform: uppercase;
+	font-family: open sans;
+	font-size: 4vw;
+}
+
+.card__title {
+	font-size: 7vw;
+	color: #c1c1c1;
+	text-transform: uppercase;
+	font-family: open sans;
+	font-weight: bold;
+}
+
+.card__img__wrapper {
+	height: 60vw;
+}
+
+.card__img__basketballer {	
+	background-image: url(img/basketballer_302.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vw;
+    background-size: contain;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    background-position: center;
+}
+
+.card__info__section__athlets__first {
+	background-color: #fafafa;
+}
+
+.card__info__section__athlets__second {
+	background-color: #f5f4f9;
+}
+
+.card__info__section__athlets__third {
+	background-color: #5e42b0;
+}
+
+.card__text__third {
+	color: white;
+}
+
+.card__info__section__players__third {
+	background-color: #090c35;
+}
+
+.card__info__section__players__first {
+	background-color: #fafafa;
+}
+
+.card__info__section__players__second {
+	background-color: #f5f4f9;
+}
+
+.card__img__wrapper_be-active {
+	height: 104vw;
+}
+
+.card__img__be-active {	
+	background-image: url(img/be-active_640.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
