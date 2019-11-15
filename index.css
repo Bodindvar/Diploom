@@ -18,15 +18,6 @@ body {
 	position: absolute;
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 640px) {
 .follow__me {
     width: 34%;
@@ -112,6 +103,8 @@ body {
 	width: 75%;
 	padding-left: 2%;
 	margin: auto;
+    text-decoration: none;
+    color: white;
 }
 
 .apple__link, .google__link {
@@ -244,7 +237,6 @@ body {
     left: 1vw;
 }
 
-
 .title__players {
 	padding-top: 5%;
 	order: 1;
@@ -364,7 +356,7 @@ body {
     left: 1%;
     height: 0;
     width: 4%;
-    border-top: 5px solid #8f7bc8;
+    border-top: 3px solid #8f7bc8;
     z-index: 2;
 }
 
@@ -391,7 +383,7 @@ body {
     left: 1%;
     height: 0;
     width: 4%;
-    border-top: 5px solid #8f7bc8;
+    border-top: 3px solid #8f7bc8;
     z-index: 2;
 }
 
@@ -418,7 +410,7 @@ body {
     left: 1%;
     height: 0;
     width: 4%;
-    border-top: 5px solid #8f7bc8;
+    border-top: 3px solid #8f7bc8;
     z-index: 2;
 }
 
@@ -547,15 +539,7 @@ body {
     left: 0;
     right: 0;
 }
-
-
 }
-
-
-
-
-
-
 
 @media (min-width: 641px) and (max-width: 960px) {
 .follow__me {
@@ -640,8 +624,10 @@ body {
 .social__text__wrapper {
 	width: 60%;
     margin: auto;
+    text-decoration: none;
+    margin: auto;
+    color: white;
 }
-
 
 .apple__link, .google__link {
 	font-size: 80%;
@@ -691,7 +677,7 @@ body {
 	text-transform: uppercase;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: bold;
-	padding-left: 4%;
+	padding-left: 5%;
 	position: relative;
 }
 
@@ -747,7 +733,7 @@ body {
     background-position: center;
     top: 0;
     bottom: 0;
-    left: -40%;
+    left: -33%;
 }
 
 .card__info__section__athlets__first {
@@ -796,15 +782,14 @@ body {
 }
 
 .card__info__section {
-	width: 100%;
+	width: 88%;
 	padding-top: 3vw;
 	padding-bottom: 3vw;
 	position: relative;
 }
 
 .card__info__section__two {
-	margin: auto;
-	width: 80%;
+	width: 66%;
 	padding-top: 2vw;
     padding-bottom: 2vw;
 }
@@ -855,8 +840,7 @@ body {
     z-index: 2;
     background-position: center;
     top: 0;
-    bottom: 0;
-    
+    bottom: 11%;
 }
 
 .title__players {
@@ -882,7 +866,6 @@ body {
     background-size: cover;
     margin: 0 auto;
 }
-
 
 .card__img__find-contact {	
 	background-image: url(img/find-contact_960.jpg);
@@ -1119,15 +1102,7 @@ body {
     left: 0;
     right: 0;
 }
-
-
 }
-
-
-
-
-
-
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
 header {
@@ -1214,10 +1189,11 @@ header {
 }
 
 .social__text__wrapper {
-	width: 60%;
+    width: 60%;
+    text-decoration: none;
     margin: auto;
+    color: white;
 }
-
 
 .apple__link, .google__link {
 	font-size: 1vw;
@@ -1313,11 +1289,10 @@ header {
     top: 10%;
 }
 
-
 .card__img__footballer {
     background-image: url(img/footballer_566.png);
     background-repeat: no-repeat;
-    width: 84%;
+    width: 76%;
     height: 108%;
     background-size: contain;
     margin: auto;
@@ -1326,7 +1301,7 @@ header {
     top: 0;
     bottom: 0;
  	margin-left: auto;
- 	left: 23%;
+ 	left: 12%;
 }
 
 .card__info__section__athlets__first {
@@ -1473,7 +1448,6 @@ header {
     background-size: cover;
     margin: 0 auto;
 }
-
 
 .card__img__find-contact {	
 	background-image: url(img/find-contact_1024.jpg);
@@ -1741,15 +1715,6 @@ footer {
 .six {
 	order: 6;
 }
-
-
-
-
-
-
-
-
-
 
 .card__text__third {
 	color: white;
