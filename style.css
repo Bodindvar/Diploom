@@ -54,6 +54,14 @@ body {
     flex-wrap: wrap;
 }
 
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 .end:after {
 	content: "";
 	position: absolute;
@@ -330,29 +338,20 @@ body {
 }
 
 .box-three__img_be-active {	
-	background-image: url(img/be-active_640.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 105vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_find-contact {	
-	background-image: url(img/find-contact_640.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 105vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_work-it {	
-	background-image: url(img/work-it_640.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 105vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -852,29 +851,20 @@ body {
 }
 
 .box-three__img_be-active {	
-	background-image: url(img/be-active_960.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 76vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_find-contact {	
-	background-image: url(img/find-contact_960.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 76vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_work-it {	
-	background-image: url(img/work-it_960.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 76vw;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -1348,35 +1338,26 @@ body {
 }
 
 .box-three__img_be-active {	
-	background-image: url(img/be-active_1024.jpg);
-	background-position: center;
 	order: 1;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 40vw;
-    background-size: cover;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_find-contact {	
-	background-image: url(img/find-contact_1024.jpg);
-	background-position: center;
 	order: 4;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 40vw;
-    background-size: cover;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .box-three__img_work-it {	
-	background-image: url(img/work-it_1024.jpg);
-	background-position: center;
 	order: 5;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 40vw;
-    background-size: cover;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -1384,8 +1365,8 @@ body {
     content: '01';
     box-sizing: border-box;
     position: absolute;
-	top: 30%;
-    left: -8%;
+	top: 29%;
+    left: -7%;
     font-size: 1vw;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: bold;
@@ -1398,7 +1379,7 @@ body {
 	content: '';
     position: absolute;
     top: 42%;
-    left: -2.4%;
+    left: -1.4%;
     height: 0;
     width: 3%;
     border-top: 5px solid #8f7bc8;
@@ -1434,7 +1415,7 @@ body {
     box-sizing: border-box;
     position: absolute;
 	top: 29%;
-    left: -8%;
+    left: -7%;
     font-size: 1vw;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: bold;
@@ -1447,7 +1428,7 @@ body {
 	content: '';
     position: absolute;
     top: 41%;
-    left: -2.4%;
+    left: -1.4%;
     height: 0;
     width: 3%;
     border-top: 5px solid #8f7bc8;
@@ -1455,7 +1436,7 @@ body {
 
 .box-three__text {
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 150%;
+	font-size: 1.3vw;
 	margin-bottom: auto;
 }
 
@@ -1565,16 +1546,3 @@ body {
     z-index: 3;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -81,7 +81,12 @@
   	</section>
 
   	<section class="box-three">
-  		<div class="box-three__img_be-active"></div>    
+  		<picture class="box-three__img_be-active">
+			<source media="(max-width: 640px)" srcset="img/be-active_640.jpg">
+			<source media="(max-width: 960px)" srcset="img/be-active_960.jpg">
+			<source media="(min-width: 961px)" srcset="img/be-active_1024.jpg">	
+			<img src="img/be-active.jpg" alt="Rest" />
+		</picture>    
 	  	<div class="box-three__card-info_be-active">
 		  	<h2 class="box-three__subtitle">be active</h2>
 		  	<p class="box-three__text">Post videos with your skills,
@@ -89,13 +94,23 @@
 				more popular.</p>
 		</div>
 
-		<div class="box-three__img_find-contact"></div>    
+		<picture class="box-three__img_find-contact">
+			<source class="img" media="(max-width: 640px)" srcset="img/find-contact_640.jpg">
+			<source class="img" media="(max-width: 960px)" srcset="img/find-contact_960.jpg">
+			<source class="img" media="(min-width: 961px)" srcset="img/find-contact_1024.jpg">
+			<img src="img/find-contact.jpg" alt="master" />
+		</picture>       
 	  	<div class="box-three__card-info_find-contact">
 		  	<h2 class="box-three__subtitle">find contact</h2>
 		  	<p class="box-three__text">Contact others to find right coach or athlete you are looking for.</p>
 		</div>
-
-		<div class="box-three__img_work-it"></div>    
+ 
+		<picture class="box-three__img_work-it">
+			<source media="(max-width: 640px)" srcset="img/work-it_640.jpg">
+			<source media="(max-width: 960px)" srcset="img/work-it_960.jpg">
+			<source media="(min-width: 961px)" srcset="img/work-it_1024.jpg">
+			<img src="img/work-it.jpg" alt="bunch">
+		</picture>     
 		<div class="box-three__card-info_work-it">
 		    <h2 class="box-three__subtitle">work it</h2>
 		  	<p class="box-three__text">Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
